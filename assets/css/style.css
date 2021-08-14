@@ -97,18 +97,67 @@ nav a:hover {
 
 .banner_options {
     height: 210px;
-    display: flex;
+    display: flex; 
 }
 
-.option1 {
+.banner_options h1 {
+    margin-top: 20px;
+}
+.option1 ,
+.option2 ,
+.option3 {
     flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.option1 {
     background-color: #003856;
 }
+
+.option1 h1 {
+    color: #b73535;
+    font-size: 22px;
+}
+
 .option2 {
-    flex: 1;
     background-color: #b73535;
 }
+
+.option2 h1{
+    color: #003856;
+    font-size: 25px;
+}
+
 .option3 {
     background-color: #003856;
-    flex: 1;
+}
+
+.option3 {
+    color: #b73535;
+}
+
+.banner_description {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn_saibamais{
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.link_btn {
+    text-decoration: none;
+    color: white;
 }
