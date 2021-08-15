@@ -161,3 +161,15 @@ nav a:hover {
     text-decoration: none;
     color: white;
 }
+
+.horario_atendimento {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #b73535;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.horario_atendimento p {
+    margin-bottom: 5px;
+}
