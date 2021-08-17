@@ -318,3 +318,135 @@ aside .traco {
     background-color: #b73535;
     
 }
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.fm_1, .fm_2, .fm_3 {
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px 0px 20px;
+    padding: 20px;
+}
+
+.fm_1 {
+    background-color: #003856; 
+}
+
+.fm_1 h1 {
+    color: #b73535;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.fm_2 {
+    background-color: #b73535;
+}
+
+.fm_2 h1{
+    color: #003856;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fm_3 {
+    background-color: #003856;
+}
+
+.fm_3 h1 {
+    font-size: 22px;
+    color: #b73535;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.fm_description {
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.flexColumn {
+    flex-direction: column;
+}
+
+.footer_area {
+    display: flex;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+.footer_area_item {
+    flex: 1;
+    color: white;
+}
+
+.footer_titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer_title_text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_title_bar {
+    width: 50px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #b73535;
+}
+
+.footer_copy {
+    border-top: 1px solid #b73535;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.footer_copy a {
+    text-decoration: none;
+    color: #b73535;
+}
+
+.contato_externo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.fm_description a {
+    text-decoration: none;
+    color: white;
+}
+
+.fm_description p {
+    margin-top: 30px;
+}
+
+.fm_noticia {
+    margin-top: 5px;
+    color: #b73535;
+}
