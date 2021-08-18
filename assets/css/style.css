@@ -15,6 +15,8 @@ header {
     width: 1500px;
     display: flex;
     justify-content: space-between;
+   
+    
 }
 
 .logo {
@@ -505,6 +507,12 @@ footer {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+
+
     }
 
     header {
